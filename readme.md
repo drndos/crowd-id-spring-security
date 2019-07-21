@@ -7,7 +7,7 @@
 ## How to configure openidserver on crowd (CrowdID)
 * configure Crowd
 * add generic application with name and password
-* configure crowd.properties
+* configure crowd-openidserver-webapp\WEB-INF\classes\crowd.properties
 * restart bundled Crowd server or standalone openidserver
 * login to openidserver open administration and set whitelist 
 
