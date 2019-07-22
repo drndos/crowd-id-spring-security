@@ -18,10 +18,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 @Profile("working")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-  //TODO:Support selecting identity:
-  //openid.claimed_id should be http://specs.openid.net/auth/2.0/identifier_select
-  //openid.identity should be http://specs.openid.net/auth/2.0/identifier_select
-  //need to post openid.identity with crowd url https://crowd.example.com/openidserver/op
+  //need to post openid_identifier with crowd url https://crowd.example.com/openidserver/op
   @Override
   protected void configure(HttpSecurity http) throws Exception {
     http
